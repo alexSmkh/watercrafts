@@ -11,6 +11,7 @@ html {
 a {
   text-decoration: none;
   color: inherit;
+  display: inline-block;
 }
 
 ul,
@@ -41,14 +42,18 @@ body {
   font-weight: 400;
 }
 
+.page_section {
+  margin-bottom: 80px;
+}
+
 .container {
   max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-header__bottom {
-  margin-bottom: 78px;
+.header__bottom {
+  margin-bottom: 80px;
 }
 
 .header__top-inner {
@@ -264,7 +269,7 @@ header__bottom {
 }
 
 .sale-item__price-new::after {
-  content: '';
+  content: "";
   background-image: url(../images/icons-price.svg);
   position: absolute;
   right: 0;
@@ -281,12 +286,12 @@ header__bottom {
   color: #c4c4c4;
   padding: 2px 5px;
   margin-right: 15px;
-  background-image: url('../images/old-line.svg');
+  background-image: url("../images/old-line.svg");
   background-repeat: no-repeat;
 }
 
 .sale-item__price-old::after {
-  content: '';
+  content: "";
   background-image: url(../images/icons-price-old.svg);
   position: absolute;
   right: -10px;
@@ -300,10 +305,9 @@ header__bottom {
   padding: 25px 20px;
   font-size: 18px;
   line-height: 21px;
-
 }
 
-.sale-item__footer span{
+.sale-item__footer span {
   color: #1c62cd;
   display: block;
   font-weight: 700;
@@ -313,7 +317,7 @@ header__bottom {
 .sale-item__title {
   font-size: 18px;
   line-height: 21px;
-  font-family: 'SFProDisplay-Bold', sans-serif;
+  font-family: "SFProDisplay-Bold", sans-serif;
   font-weight: 700;
   margin-bottom: 7px;
 }
@@ -325,4 +329,64 @@ header__bottom {
 
 .sale-item__img {
   object-fit: contain;
+}
+
+.search__tabs {
+  margin-bottom: 25px;
+}
+
+.search__tabs-item {
+  padding: 11px 26px 12px;
+}
+
+.search__tabs-item--active {
+  border-radius: 5px;
+  background-color: #f0f0f4;
+  font-family: "SFProDisplay-Bold", sans-serif;
+  font-weight: 700;
+}
+
+.search__content-item {
+  display: none;
+}
+
+.search__content-item--active {
+  display: block;
+}
+
+.search__content-form {
+  display: flex;
+}
+
+.search__content-btn {
+  width: 145px;
+  height: 50px;
+  background: #1c62cd;
+  border-radius: 3px;
+  color: #fff;
+  font-family: "SFProDisplay-Bold", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 17px 41px;
+  border: none;
+  margin-left: -3px;
+}
+
+.search__content-input {
+  height: 50px;
+  background: #f0f0f4;
+  border-radius: 3px;
+  padding: 5px 20px;
+  border: none;
+  line-height: 19px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.serach__content-input::placeholder {
+  color: #656464;
 }

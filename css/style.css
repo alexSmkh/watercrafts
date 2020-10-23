@@ -586,8 +586,9 @@ body {
 }
 
 .product-item__notify-text {
-  padding-bottom: 1px;
+  padding-bottom: 15px;
 }
+
 
 .product-item__notify-link {
   display: none;
@@ -618,6 +619,9 @@ body {
   line-height: 30px;
   color: #2f3035;
   margin-bottom: 25px;
+}
+.product-item__img {
+  max-height: 180px;
 }
 
 .products__tab + .products__tab {
@@ -655,7 +659,7 @@ body {
 
 .product__more {
   text-align: center;
-  margin: 35px auto 80px;
+  margin: 35px auto 0;
   display: inline-block;
 }
 
@@ -670,4 +674,8 @@ body {
 
 .product__more:hover {
   box-shadow: 3px 3px 20px rgba(50, 50, 50, 0.25);
+}
+
+.banner {
+  margin-bottom: 80px;
 }

@@ -585,15 +585,12 @@ body {
   display: none;
 }
 
-.product-item:hover .product-item__notify-text {
+.product-item__notify-text {
+  padding-bottom: 1px;
 }
 
 .product-item__notify-link {
   display: none;
-}
-
-.product-item__wrapper.product-item__not-available .product-item__title {
-  padding-bottom: 13px;
 }
 
 .product-item__wrapper.product-item__not-available .product-item__notify-link {

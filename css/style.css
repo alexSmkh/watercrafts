@@ -120,7 +120,7 @@ body {
   background-color: #1c62cd;
   border-radius: 50%;
   text-align: center;
-  bottom: -15px;
+  bottom: 0;
   right: -14px;
 }
 
@@ -168,6 +168,10 @@ body {
 .banner-section__inner {
   display: flex;
   justify-content: space-between;
+}
+
+.banner-section__inner .slick-dots .slick-active button {
+  background-color: #fff;
 }
 
 .banner-section__slider {
@@ -589,7 +593,6 @@ body {
   padding-bottom: 15px;
 }
 
-
 .product-item__notify-link {
   display: none;
 }
@@ -678,4 +681,97 @@ body {
 
 .banner {
   margin-bottom: 80px;
+}
+
+.footer {
+  background-color: #f0f0f4;
+}
+
+.footer__bottom {
+  padding: 46px 0 22px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__bottom-link {
+  font-size: 10px;
+  line-height: 12px;
+  color: #48494d;
+  margin: 0 40px;
+}
+
+.footer__top {
+  padding-top: 43px;
+}
+
+.footer__top-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__top-newslatter.footer__top-item {
+  width: 295px;
+  margin-right: 50px;
+}
+
+.footer__title {
+  font-size: 14px;
+  line-height: 17px;
+  color: #2f3035;
+}
+
+.footer-form {
+  margin-top: 34px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-form__input {
+  background-color: #fff;
+  border: none;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 0 12px;
+}
+
+.footer-form__input::placeholder {
+  color: #c4c4c4;
+}
+
+.footer-form__btn {
+  padding: 10px 16px;
+  text-transform: uppercase;
+  border: none;
+  background-color: #1c62cd;
+  color: #fff;
+  font-family: "SFProDisplay-Semibold", sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 0.12em;
+}
+
+.footer__top-item {
+  width: 200px;
+}
+
+.footer-list {
+  font-size: 14px;
+  line-height: 22px;
+  color: #2f3035;
+}
+
+.footer__top-social.footer__top-item {
+  width: 250px;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.social-list__item + .social-list__item {
+  margin-left: 30px;
 }
